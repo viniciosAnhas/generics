@@ -14,4 +14,10 @@ public class Generico<C extends Carro> {
         return carro;
     }
 
+    @Override
+    public String toString() {
+        return "Generico{" +
+                "carro=" + carro +
+                '}';
+    }
 }
